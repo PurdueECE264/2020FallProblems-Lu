@@ -1,5 +1,6 @@
 # 2020 Fall Problems for Purdue ECE 264 "Advanced C Programming"
-# Instructor: Yung-Hsiang Lu
+
+Instructor: Yung-Hsiang Lu
 
 Welcome to ECE 264
 
@@ -26,20 +27,36 @@ The problems are classified into three parts:
 ECE 264 Uses Linux
 ==================
 
-This course uses Linux.  Engineering Computer Networks (ECN) is the IT
-(Information Technology) for Purdue's College of Engineering.  ECN
-manages many Linux computers. Your submitted assignments will be
-graded on ECN Linux. You are strongly encouraged to write and test
-your programs on ECN Linux computers.  The only way to grade your
-submissions is to use ECN Linux.  For privacy and security, the
-teaching staff cannot touch your computer.  The teaching staff cannot
-grade your programs on your computer.  Thus, please do not say, "My
-program runs on my computer." This statement is irrelevant.
+This course uses Linux.  Engineering Computer Networks (ECN,
+https://engineering.purdue.edu/ECN) is the IT (Information Technology)
+for Purdue's College of Engineering.  ECN manages many Linux
+computers. Your submitted assignments will be graded on ECN Linux. You
+are strongly encouraged to write and test your programs on ECN Linux
+computers.  The only way to grade your submissions is to use ECN
+Linux.  For privacy and security, the teaching staff cannot touch your
+computer.  The teaching staff cannot grade your programs on your
+computer.  Thus, please do not say, "My program runs on my computer."
+This statement is irrelevant.
+
+The first homework (HW01) will explain how to use Linux computers. If
+you have no ECN account, please contact ECN. Please *do not* as the
+instructor. The instructor is not authorized to create ECN account.
+If you ask the instructor, the response is "Please ask ECN".
 
 You must not use Windows, MacOS, Android, or any other operating
 systems.  Even though your C programs should work if you follow the C
 language standards, developing your C programs outside Linux may
 create unnecessary trouble.
+
+Registration Questions
+======================
+
+If you have questions about registration, please contact the ECE
+Undergraduate Office
+(https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/About/Office_Information). The
+instructor has no authorization about registration.  If you ask the
+instructor questions about registration, the response is "Please
+contact the undergraduate office".
 
 Collaborative Learning Environment
 ==================================
@@ -54,7 +71,7 @@ Population Survey data by the National Foundation for American Policy
 (NFAP). An analysis by NFAP of Active Job Postings in Computing
 Occupations amplifies this point, noting that between April 14 and May
 13, 2020, there were more than 625,000 active vacancies in jobs that
-require at least a bachelor€™s degree in computing."*
+require at least a bachelor's degree in computing."*
 
 ECE 264 encourages everyone to help everyone. Your classmates may
 design your next apps, the next medical devices that ensure your
@@ -117,7 +134,7 @@ How are Programming Assignments Graded?
 =======================================
 
 Programming assignments are graded by computer programs. Thus, your
-programs must follow the instructions *precisely*. You must
+programs must follow the instructions **precisely**. You must
 understand that computers are not tolerant. Any "small" (small for
 you) mistake can lead to significant loss of points.
 
@@ -141,6 +158,7 @@ Structures of Assignments
 =========================
 
 At the top of every file, there is clear indication whether you should modify the file or not.  You must follow the instruction.
+If you modify a file must not be changed, you will likely lose points.  
 
 Everything you write must be enclosed within
 
@@ -233,6 +251,20 @@ think it is not possible, you do not understand the materials.
   rush. They start coding without studying or thinking. They do not
   spend time learning debugger.  If you rush, it will take longer.
 
+* Q: Why do we learn C language? Is anyone using C?
+
+* A: IEEE reports the "Top Programming Languages" every year. In 2019,
+the top five are Python (100), Java (96.3), C (94.4), C++ (87.5) and
+R(81.5).  Three of the top five (Java, C, C++) are very similar in
+many ways. C++ was inpired by C and Java was inspired by C++. C was
+designed to closely reflect the underlying systems (including hardware
+structures). Understanding C can help you understand computer
+design. When you write C programs, you have to take care of many
+details. Some other languages take care of some details (such as
+memory management) for you.  It is generally agreed that if you can
+write good C programs, you can learn other programming languages more
+easily.
+
 
 WARNINGS: Your Programs Must Not Crash and Must Not Leak Memory
 ===============================================================
@@ -244,12 +276,13 @@ you cannot manage memory, you cannot write good C programs.
 You will lose 1 point for every leaked byte. If your program leaks
 memory, it is very likely that you will receive zero.
 
-You know exactly how to check memory errors: using `valgrind` . If
-your program leaks memory, it is like an airplane that leaks fuel.
-Would you take a flight if the plane leaks fuel?  Your program *DOES
-NOT* work. Don't fool yourself and claim that your program works.
-Talk to professional software developers. Everyone will tell you
-memory leak is *unacceptable*.
+You should know how to check memory errors: using `valgrind` . If your
+program leaks memory, it is like an airplane that leaks fuel.  Would
+you take a flight if the plane leaks fuel? An airplane should not fly
+if it leaks fuel. Your program *DOES NOT* work if it leaks
+memory. Don't fool yourself and claim that your program works.  Talk
+to professional software developers. Everyone will tell you memory
+leak is *unacceptable*.
 
 Keep An Open Mind: It is possible that your programs are wrong
 ==============================================================
@@ -296,6 +329,22 @@ regrading.  Filling the regrading request is the only way.
 
 The regrading request will be processed approximately once a
 week. Your patience is appreciated.
+
+Regrading is not "free". The teaching staff has to take time to
+check. Request regrading only if you actually have reasons.  In the
+past, some students requested regrading even when they did not submit
+assignments. Some students requested regrading *before* assignments
+were graded.  These students said, "Why not? I will lose nothing."
+These unreasonable requests wasted the time of the teaching assistants
+(they were also students).
+
+To prevent future unreasonable requests, the following penalty is
+imposed: If a student requests regrading for an assignment that was
+not submitted, the student will lose 50% in the next assignment.
+
+Please understand that preventing these unreasonable requests save the
+time of the teaching assistants so that they can respond to reasonable
+questions.
 
 Your Rights
 ===========
@@ -413,3 +462,11 @@ few possible scenarios of campus emergency:
   responses can be summarized into three steps: Run, Hide, Fight.
 
 
+REQUEST SPECIFIC GRADE
+======================
+
+In exceptionally rare situations, a students can request a specific
+grade, regardless of the student's actual performance. Please fill
+this form () and send to the instructor electronically (to email
+yunglu@purdue.edu) before 2020/11/30.  This exceptional accommodation
+is available only when Dr. Yung-Hsiang Lu is the instructor.
