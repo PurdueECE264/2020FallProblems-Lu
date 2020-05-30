@@ -24,6 +24,41 @@ The problems are classified into three parts:
 
 * Part 3: New assignments as experiments
 
+Part 1 Basic
+============
+
+* HW01 Linux: Linux commands, `gcc`, `make`
+* HW02 Sort: Selection Sort. Array. Testing.
+* HW03 Cake: Who gets the cake? Array, Makefile. Testing.
+* HW04 File: Read characters from a file and count the occurrences. `fopen`, `fclose`, `fgetc`
+* HW05 Sum: Read integers and add them, pointer. `fscanf`, `fprintf`
+* HW06 Word: Read lines and count a word's occurrences, string. `fgets`, `strstr`
+* HW07 QSort: Read data from file, call `qsort` to sort numbers, save data to file
+* HW08 Structure: Read binary file, sort, write results to another file
+* HW09 MergeSort: Use merge sort to sort an array of integers. Recursion
+* HW10 Shuffle1: Shuffle cards once. Recursion.
+
+Part 2 Integration
+==================
+
+* HW11 Shuffle2: Shuffle cards multiple times. Recursion.
+* HW12 Cake2: Who gets the cake? Use linked list.
+* HW13 Arithmetic1: Perform arithmetic calculation using postfix expression.
+* HW14 Arithmetic2: Convert an infix expression to postfix.
+* HW15 BinaryTree1: Build a binary tree from in-order and post-order
+* HW16 BinaryTree2: Print the path from a node to the root
+* HW17 Maze: find the shortest distances between the source to all reachable locations
+* HW18 Memory: allocate and free memory blocks and bit operations
+* HW19 Sudoku: solve Sudoku problems (without the need of backtrack)
+* HW20 K-mean Data Clustering: Unsupervised learning
+
+Par 3 Experiments (Optional)
+============================
+
+* HW21 Shortest Path: find the shortest paths from a single source to all destinations
+* HW22 Shortest Path: find the shortest paths from a single source to a single destination
+* HW23 Neural Networks: train a three-layer neural networks for logic gates
+
 ECE 264 Uses Linux
 ==================
 
@@ -94,41 +129,6 @@ classmates' questions.  You are encouraged to form study groups and
 meet regularly (in person or virtually) to review the course
 materials, discuss strategies to solve assignments, or prepare for
 exams.
-
-Part 1 Basic
-============
-
-* HW01 Linux: Linux commands, `gcc`, `make`
-* HW02 Sort: Selection Sort. Array. Testing.
-* HW03 Cake: Who gets the cake? Array, Makefile. Testing.
-* HW04 File: Read characters from a file and count the occurrences. `fopen`, `fclose`, `fgetc`
-* HW05 Sum: Read integers and add them, pointer. `fscanf`, `fprintf`
-* HW06 Word: Read lines and count a word's occurrences, string. `fgets`, `strstr`
-* HW07 QSort: Read data from file, call `qsort` to sort numbers, save data to file
-* HW08 Structure: Read binary file, sort, write results to another file
-* HW09 MergeSort: Use merge sort to sort an array of integers. Recursion
-* HW10 Shuffle1: Shuffle cards once. Recursion.
-
-Part 2 Integration
-==================
-
-* HW11 Shuffle2: Shuffle cards multiple times. Recursion.
-* HW12 Cake2: Who gets the cake? Use linked list.
-* HW13 Arithmetic1: Perform arithmetic calculation using postfix expression.
-* HW14 Arithmetic2: Convert an infix expression to postfix.
-* HW15 BinaryTree1: Build a binary tree from in-order and post-order
-* HW16 BinaryTree2: Print the path from a node to the root
-* HW17 Maze: find the shortest distances between the source to all reachable locations
-* HW18 Memory: allocate and free memory blocks and bit operations
-* HW19 Sudoku: solve Sudoku problems (without the need of backtrack)
-* HW20 K-mean Data Clustering: Unsupervised learning
-
-Par 3 Experiments (Optional)
-============================
-
-* HW21 Shortest Path: find the shortest paths from a single source to all destinations
-* HW22 Shortest Path: find the shortest paths from a single source to a single destination
-* HW23 Neural Networks: train a three-layer neural networks for logic gates
 
 How are Programming Assignments Graded?
 =======================================
@@ -433,6 +433,16 @@ most appropriate accommodations.  The teaching staff will follow the
 instructions of these experts.  The teaching staff is not trained to
 handle students with special needs.
 
+REQUEST SPECIFIC GRADE
+======================
+
+In exceptionally rare situations, a students can request a specific
+grade, regardless of the student's actual performance. Please fill
+this form
+(https://github.com/PurdueECE264/2020FallProblems-Lu/blob/master/GradeRequest.pdf)
+and send to the instructor electronically (to email yunglu@purdue.edu)
+before 2020/11/30.  This exceptional accommodation is available only
+when Dr. Yung-Hsiang Lu is the instructor.
 
 EMERGENCY
 =========
@@ -458,15 +468,18 @@ few possible scenarios of campus emergency:
 
 * Active Shooting: FBI provide resources
   (https://www.fbi.gov/about/partnerships/office-of-partner-engagement/active-shooter-resources)
-  about how to respond to the situation of active shooting. The
-  responses can be summarized into three steps: Run, Hide, Fight.
+  about how to respond to the situation of active shooting.
 
+Build Your Professional Network
+===============================
 
-REQUEST SPECIFIC GRADE
-======================
+ECE 264 is a large class (more than 300 students). Your classmates are
+great resources.  Make as many friends as you can.
 
-In exceptionally rare situations, a students can request a specific
-grade, regardless of the student's actual performance. Please fill
-this form () and send to the instructor electronically (to email
-yunglu@purdue.edu) before 2020/11/30.  This exceptional accommodation
-is available only when Dr. Yung-Hsiang Lu is the instructor.
+Your professional network can contribute to a more successful
+career. You are welcome to join a Linkedin group for current and
+former students of ECE 264 (https://www.linkedin.com/groups/8672695/).
+You are encouraged to talk to alumni and learn their experience. Many
+students obtain intern or regular positions through their professional
+networks.
+
