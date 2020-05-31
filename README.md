@@ -1,4 +1,4 @@
-# 2020 Fall Problems for Purdue ECE 264 "Advanced C Programming"
+# 2020 Fall Homework Assignments for Purdue ECE 264 "Advanced C Programming"
 
 Instructor: Yung-Hsiang Lu
 
@@ -36,13 +36,13 @@ Part 1 Basic
 * HW07 QSort: Read data from file, call `qsort` to sort numbers, save data to file
 * HW08 Structure: Read binary file, sort, write results to another file
 * HW09 MergeSort: Use merge sort to sort an array of integers. Recursion
-* HW10 Shuffle1: Shuffle cards once. Recursion.
+* HW10 Cake2: Who gets the cake? Use linked list.
 
 Part 2 Integration
 ==================
 
-* HW11 Shuffle2: Shuffle cards multiple times. Recursion.
-* HW12 Cake2: Who gets the cake? Use linked list.
+* HW11 Shuffle1: Shuffle cards once. Recursion.
+* HW12 Shuffle2: Shuffle cards multiple times. Recursion.
 * HW13 Arithmetic1: Perform arithmetic calculation using postfix expression.
 * HW14 Arithmetic2: Convert an infix expression to postfix.
 * HW15 BinaryTree1: Build a binary tree from in-order and post-order
@@ -436,7 +436,7 @@ handle students with special needs.
 REQUEST SPECIFIC GRADE
 ======================
 
-In exceptionally rare situations, a students can request a specific
+In exceptionally rare situations, a student can request a specific
 grade, regardless of the student's actual performance. Please fill
 this form
 (https://github.com/PurdueECE264/2020FallProblems-Lu/blob/master/GradeRequest.pdf)
