@@ -33,6 +33,7 @@ test3: sort
 
 testfor: sort  # same as testall
 	for case in 1 2 3; do \
+	echo $$case; \
 	./sort inputs/test$$case > output$$case; \
 	diff output$$case expected/expected$$case; \
 	done

@@ -22,8 +22,6 @@ The problems are classified into three parts:
 
 * Part 2: Each requires integration of the knowledge and skills for solving several related problems.
 
-* Part 3: New assignments as experiments
-
 Part 1 Basic
 ============
 
@@ -51,13 +49,7 @@ Part 2 Integration
 * HW18 Memory: allocate and free memory blocks and bit operations
 * HW19 Sudoku: solve Sudoku problems (without the need of backtrack)
 * HW20 K-mean Data Clustering: Unsupervised learning
-
-Par 3 Experiments (Optional)
-============================
-
-* HW21 Shortest Path: find the shortest paths from a single source to all destinations
-* HW22 Shortest Path: find the shortest paths from a single source to a single destination
-* HW23 Neural Networks: train a three-layer neural networks for logic gates
+* (More may be added)
 
 ECE 264 Uses Linux
 ==================
