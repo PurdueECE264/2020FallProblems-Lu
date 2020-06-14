@@ -71,5 +71,6 @@ clean: # remove all machine generated files
 # determine the dependence of headers
 
 depend:
+	# analyze the dependences of header files
 	makedepend $(SRCS)
 
