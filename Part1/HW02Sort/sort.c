@@ -7,7 +7,6 @@
 
 // DO NOT MODIFY THIS FUNCTION
 bool checkOrder(int * arr, int size)
-// a static function is visible only in this file
 // This function returns true if the array elements are
 // in the ascending order.
 // false, otherwise
