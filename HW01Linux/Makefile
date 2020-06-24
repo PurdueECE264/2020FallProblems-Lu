@@ -12,7 +12,7 @@ GCC = gcc -std=c99 -g $(WARNING) $(ERROR) $(COVERAGE)
 
 # Which operations to test by defining the symbols
 # Please remove one or more of them and test the program
-TESTFALGS = -DTEST_ADD -DTEST_SUB -DTEST_MUL -DTEST_DIV -DTEST_MAIN
+TESTFLAGS = -DTEST_ADD -DTEST_SUB -DTEST_MUL -DTEST_DIV -DTEST_MAIN
 
 # list all .c files
 SRCS = add.c div.c mul.c  main.c solution.c sub.c
@@ -21,7 +21,7 @@ SRCS = add.c div.c mul.c  main.c solution.c sub.c
 OBJS = $(SRCS:%.c=%.o)
 
 main: $(OBJS) 
-	$(GCC) $(TESTFALGS) $(OBJS) -o main
+	$(GCC) $(TESTFLAGS) $(OBJS) -o main
 	# without -c means linking to create the executable
 	# the executable is after -o and is called main
 	# By convention, executable in Linux has no extension
@@ -29,7 +29,7 @@ main: $(OBJS)
 
 # convert .c to .o 
 .c.o: 
-	$(GCC) $(TESTFALGS) -c $*.c 
+	$(GCC) $(TESTFLAGS) -c $*.c 
 	# -c means compilation only (creating object file)
 	# no linking
 
@@ -71,5 +71,6 @@ clean: # remove all machine generated files
 # determine the dependence of headers
 
 depend:
+	# analyze the dependences of header files
 	makedepend $(SRCS)
 
