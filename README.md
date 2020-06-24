@@ -22,8 +22,6 @@ The problems are classified into three parts:
 
 * Part 2: Each requires integration of the knowledge and skills for solving several related problems.
 
-Part 1 Basic
-============
 
 * HW01 Linux: Linux commands, `gcc`, `make`
 * HW02 Sort: Selection Sort. Array. Testing.
@@ -35,10 +33,6 @@ Part 1 Basic
 * HW08 Structure: Read binary file, sort, write results to another file
 * HW09 MergeSort: Use merge sort to sort an array of integers. Recursion
 * HW10 Cake2: Who gets the cake? Use linked list.
-
-Part 2 Integration
-==================
-
 * HW11 Shuffle1: Shuffle cards once. Recursion.
 * HW12 Shuffle2: Shuffle cards multiple times. Recursion.
 * HW13 Arithmetic1: Perform arithmetic calculation using postfix expression.
@@ -49,7 +43,6 @@ Part 2 Integration
 * HW18 Memory: allocate and free memory blocks and bit operations
 * HW19 Sudoku: solve Sudoku problems (without the need of backtrack)
 * HW20 K-mean Data Clustering: Unsupervised learning
-* (More may be added)
 
 ECE 264 Uses Linux
 ==================
