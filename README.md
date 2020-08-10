@@ -42,7 +42,7 @@ The problems are classified into three parts:
 * HW17 Maze: find the shortest distances between the source to all reachable locations
 * HW18 Memory: allocate and free memory blocks and bit operations
 * HW19 Sudoku: solve Sudoku problems (without the need of backtrack)
-* HW20 K-mean Data Clustering: Unsupervised learning
+* HW20 Shortest: Find shortest distances in a graph
 
 ECE 264 Uses Linux
 ==================
@@ -299,6 +299,19 @@ friendly environments.  There is a worldwide severe shortage of good
 software developers.  When everyone helps everyone become a better
 software developer, everyone benefits.
 
+Build Your Professional Network
+===============================
+
+ECE 264 is a large class (more than 300 students). Your classmates are
+great resources.  Make as many friends as you can.
+
+Your professional network can contribute to a more successful
+career. You are welcome to join a Linkedin group for current and
+former students of ECE 264 (https://www.linkedin.com/groups/8672695/).
+You are encouraged to talk to alumni and learn their experience. Many
+students obtain intern or regular positions through their professional
+networks.
+
 
 Regarding Requests
 ==================
@@ -454,17 +467,4 @@ few possible scenarios of campus emergency:
 * Active Shooting: FBI provide resources
   (https://www.fbi.gov/about/partnerships/office-of-partner-engagement/active-shooter-resources)
   about how to respond to the situation of active shooting.
-
-Build Your Professional Network
-===============================
-
-ECE 264 is a large class (more than 300 students). Your classmates are
-great resources.  Make as many friends as you can.
-
-Your professional network can contribute to a more successful
-career. You are welcome to join a Linkedin group for current and
-former students of ECE 264 (https://www.linkedin.com/groups/8672695/).
-You are encouraged to talk to alumni and learn their experience. Many
-students obtain intern or regular positions through their professional
-networks.
 

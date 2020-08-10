@@ -76,7 +76,7 @@ your computer for grading.
 zip hw08.zip main.c hw08.c
 ```
 
-Enter Blackboard, upload `hw08.zip`.
+Upload `hw08.zip`.
 
 Please notice that you do not need to submit `Makefile`.  If you submit `Makefile, it will not be graded.
 

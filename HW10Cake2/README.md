@@ -56,5 +56,5 @@ Submission
 zip hw10.zip hw10.c
 ```
 
-Upload hw10.zip to Blackboard.
+Upload hw10.zip.
 

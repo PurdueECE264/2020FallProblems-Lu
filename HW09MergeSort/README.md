@@ -43,6 +43,6 @@ WHAT TO SUBMIT
 zip hw09.zip main.c hw09.c
 ```
 
-Enter Blackboard, upload `hw09.zip`.
+Upload `hw09.zip`.
 
 

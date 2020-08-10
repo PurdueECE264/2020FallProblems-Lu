@@ -50,5 +50,5 @@ your computer for grading.
 zip hw07.zip main.c hw07.c
 ```
 
-Enter Blackboard, upload `hw07.zip`.
+Upload `hw07.zip`.
 
