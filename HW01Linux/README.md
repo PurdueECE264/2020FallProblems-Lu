@@ -399,7 +399,7 @@ or, in this case, simply
 You'll find that the version of the default `gcc` binary is 4.8.5.
 This is the version of `gcc` the grading staff will use to compile
 and link your code. **Your code must compile and link with this
-version of `gcc` beforeyou decide to submit.** This will never be
+version of `gcc` before you decide to submit.** This will never be
 an issue with you if you always write your code on an ecegrid machine.
 However, if you ever decide to work on a different machine (e.g. you
 are on the plane or otherwise do not have internet access), keep
