@@ -359,6 +359,53 @@ Version control can demonstrate that you make small and steady
 progress (instead copying a large chunk of code at once).  This is
 another reason why you must commit and push often.
 
+`gcc` version
+=============
+
+**Environment Variables** The Linux operating system is, at a high
+level, parametrized by a set of values called environment variables.
+These are values modifiable by the system's user that will allow them
+to control the system's behavior. You can view a list of every variable
+defined on your system with `printenv`. One of these variables will be
+the `PATH` environment variable, which is nothing more than a list of
+system paths separated by colons. The `PATH` variable is actually used
+by the shell to determine the location of a program you want to run
+from the command line. For example, when you type `gcc` on the command
+line, the shell will look into each directory listed in the `PATH`,
+starting with the left-most one, until it finds a binary named `gcc`.
+
+**`gcc` Versioning** The compiler, in our case `gcc`, enforces the
+rules of the C language. As the C language and compiler techniques
+evolve, `gcc` is updated with a new version to reflect and keep up
+with changes. Often times, C code that compiles without warnings 
+on one version of `gcc` can look quite different from C code that
+compiles without warning on another version (this tends to be
+increasingly true as `gcc` versions drift further apart). This is
+why, in this course, we will stick to a single version of `gcc`,
+the default one.
+
+**Default `gcc` Version** By default, on the ecegrid machines, your
+system will have the path `/usr/bin` in your `PATH` variable, which
+will be the location the shell will find the `gcc` binary to run when
+you invoke it from the command line. We can look at the version of
+this `gcc` program using
+
+`> /usr/bin/gcc -v`
+
+or, in this case, simply
+
+`> gcc -v`
+
+You'll find that the version of the default `gcc` binary is 4.8.5.
+This is the version of `gcc` the grading staff will use to compile
+and link your code. **Your code must compile and link with this
+version of `gcc` before you decide to submit.** This will never be
+an issue with you if you always write your code on an ecegrid machine.
+However, if you ever decide to work on a different machine (e.g. you
+are on the plane or otherwise do not have internet access), keep
+in mind that the version of `gcc` on that machine is most likely
+different.
+
 `gcc` warnings
 ==============
 
