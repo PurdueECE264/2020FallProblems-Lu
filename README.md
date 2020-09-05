@@ -39,10 +39,11 @@ The problems are classified into three parts:
 * HW14 Arithmetic2: Convert an infix expression to postfix.
 * HW15 BinaryTree1: Build a binary tree from in-order and post-order
 * HW16 BinaryTree2: Print the path from a node to the root
-* HW17 Maze: find the shortest distances between the source to all reachable locations
-* HW18 Memory: allocate and free memory blocks and bit operations
-* HW19 Sudoku: solve Sudoku problems (without the need of backtrack)
-* HW20 Shortest: Find shortest distances in a graph
+* HW17 Huffman Compression 1:
+* HW18 Huffman Compression 2:
+* HW19 Maze: find the shortest distances between the source to all reachable locations
+* HW20 Memory: allocate and free memory blocks and bit operations
+* HW21 Sudoku: solve Sudoku problems (without the need of backtrack)
 
 ECE 264 Uses Linux
 ==================
