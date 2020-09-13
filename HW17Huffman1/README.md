@@ -68,4 +68,37 @@ will create this result:
 Your Program's Output
 =====================
 
-Your program will output the codes of the characters
+Your program will output the codes of the characters:
+
+```
+A 00
+m 010
+# 0110
+G 0111
+c 10
+s 11
+```
+
+The order of your output does not matter because the output will be sorted before comparison with
+the expected output.
+
+Submission
+==========
+
+Please submit all necessary files. These are the requirements:
+
+* You must include `Makefile`. Without `Makefile`, it is not possible building your program.
+
+* The executable must be called `hw17` and must not be called anything else.
+
+* Your program should take one argument (`argv[1]`) as the input file name.
+
+* The program's output should be printed to the computer screen (using
+  `printf`). The output will be redirected to a file, sorted, and
+  compared with the expected output.
+
+* Your program must not have any unwanted output. Unwanted output will
+  be treated as errors.
+
+Upload a zip file to Brightspace.
+
