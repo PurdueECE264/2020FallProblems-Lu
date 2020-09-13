@@ -39,7 +39,7 @@ The following input
 
 Control or Data | C | D | C | D | C | D | C | D | C | C 
 ----------------|---|---|---|---|---|---|---|---|---|---
-                | 1 | A | 1 | m | 1 | # | 1 | G | 0 | 0
+Input           | 1 | A | 1 | m | 1 | # | 1 | G | 0 | 0
 
 will create this result:
 
@@ -49,7 +49,7 @@ The following input
 
 Control or Data | C | D | C | D | C | D | C | D | C | C | C | C | D | C | D | C
 ----------------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
-                | 1 | A | 1 | m | 1 | # | 1 | G | 0 | 0 | 0 | 1 | c | 1 | s | 0
+Input           | 1 | A | 1 | m | 1 | # | 1 | G | 0 | 0 | 0 | 1 | c | 1 | s | 0
 
 will create this result:
 
@@ -59,7 +59,7 @@ The following input
 
 Control or Data | C | D | C | D | C | D | C | D | C | C | C | C | D | C | D | C | C | C
 ----------------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
-                | 1 | A | 1 | m | 1 | # | 1 | G | 0 | 0 | 0 | 1 | c | 1 | s | 0 | 0 | 0
+Input           | 1 | A | 1 | m | 1 | # | 1 | G | 0 | 0 | 0 | 1 | c | 1 | s | 0 | 0 | 0
 
 will create this result:
 
