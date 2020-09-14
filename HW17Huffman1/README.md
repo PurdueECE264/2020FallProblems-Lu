@@ -24,7 +24,7 @@ from the data. Consider this example:
 
 Control or Data | C | D | C | D | C | D | C | D  
 ----------------|---|---|---|---|---|---|---|---
-                | 1 | A | 1 | m | 1 | # | 1 | G
+Input           | 1 | A | 1 | m | 1 | # | 1 | G
 
 When control `1` is seen, the next must be data. Create a tree node to
 hold the data and append the node to the end of a list.  The input so
@@ -65,18 +65,22 @@ will create this result:
 
 ![](huffman04.png)
 
+Please check the `inputs` directory for sample inputs.  Please notice
+that the input does *not* have space or new line separating them. This
+requirement allows space or new line to be part of the data.
+
 Your Program's Output
 =====================
 
-Your program will output the codes of the characters:
+Your program will the characters, its ASCII value (in decimal), and the codes 
 
 ```
-A 00
-m 010
-# 0110
-G 0111
-c 10
-s 11
+A 65 00
+m 109 010
+# 35 0110
+G 71 0111
+c 99 10
+s 115 11
 ```
 
 The order of your output does not matter because the output will be sorted before comparison with
