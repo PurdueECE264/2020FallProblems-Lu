@@ -69,6 +69,10 @@ Please check the `inputs` directory for sample inputs.  Please notice
 that the input does *not* have space or new line separating them. This
 requirement allows space or new line to be part of the data.
 
+You can assume that the input is a valid post-order traversal of a
+Huffman compression tree.  Your program does not need to check whether
+the input is valid.
+
 Your Program's Output
 =====================
 
