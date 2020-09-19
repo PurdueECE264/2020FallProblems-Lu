@@ -283,7 +283,7 @@ program does not enter an infinite loop in any case.
 Create Your Own Test Cases
 ==========================
 
-This is the last assignment. You need to know how to create test cases now.
+You need to know how to create test cases now.
 
 DO NOT ASK FOR TEST CASES.
 
@@ -294,15 +294,15 @@ Submission
 For this assignment, you need to provide all necessary files **and**
 `Makefile`.  Your program will be tested using the following commands
 
-`make`: generate an executable called `hw18`. Please remember that the
-executable must be called `hw18`. Any other name will be rejected.
+`make`: generate an executable called `hw20`. Please remember that the
+executable must be called `hw20`. Any other name will be rejected.
 
 If `make` fails, you will receive no score in this assignment. Each
 warning message has 10% penalty of the score.
 
 
 ```
-zip hw18.zip Makefile + all necessary files
+zip hw20.zip Makefile + all necessary files
 ```
 
-Upload hw18.zip.
+Upload hw20.zip.

@@ -86,15 +86,15 @@ Submission
 For this assignment, you need to provide all necessary files **and**
 `Makefile`.  Your program will be tested using the following commands
 
-`make`: generate an executable called `hw17`. Please remember that the
-executable must be called `hw17`. Any other name will be rejected.
+`make`: generate an executable called `hw19`. Please remember that the
+executable must be called `hw19`. Any other name will be rejected.
 
 If `make` fails, you will receive no score in this assignment. Each
 warning message has 10% penalty of the score.
 
 
 ```
-zip hw17.zip Makefile + all necessary files
+zip hw19.zip Makefile + all necessary files
 ```
 
-Upload hw17.zip.
+Upload hw19.zip.

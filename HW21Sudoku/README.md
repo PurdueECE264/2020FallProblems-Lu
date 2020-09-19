@@ -58,19 +58,19 @@ Submission
 ==========
 
 Include all necessary files and **Makefile**. The executable must be
-called `hw19` and it must uses `argv[1]` as the name of the input
+called `hw21` and it must uses `argv[1]` as the name of the input
 file.  The output should be printed on screen (during grading, the
 output will be directed to a file).
 
 This is how your program will be tested:
 
-`./hw19 inputs/test1 > output1`
+`./hw21 inputs/test1 > output1`
 
 `diff output1 expected/expected1`
 
 
 ```
-zip hw19.zip all-necessary-files
+zip hw21.zip all-necessary-files
 ```
 
-Upload hw19.zip.
+Upload hw21.zip.
