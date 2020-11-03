@@ -11,7 +11,7 @@ Post-Order Description of Huffman Compress Tree
 ===============================================
 
 The compression tree can be expressed by post-order traversal.  When a
-leaf node is encountered, 1 is printed before printing the characer
+leaf node is encountered, 1 is printed before printing the character
 stored in the node. When a non-leaf node is encountered, 0 is printed.
 If the tree has `n` leaf nodes, the tree has `n-1` non-leaf nodes.
 Thus, there are `n` 1 printed (not counting the characters) and `n-1`
@@ -28,7 +28,7 @@ Input           | 1 | A | 1 | m | 1 | # | 1 | G
 
 When control `1` is seen, the next must be data. Create a tree node to
 hold the data and append the node to the end of a list.  The input so
-far should proeduce the following list of four tree nodes:
+far should produce the following list of four tree nodes:
 
 ![](huffman01.png)
 
