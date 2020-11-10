@@ -68,11 +68,17 @@ whether an input maze is valid or not.
 * It is possible that some cells are not reachable. It is also
   possible that some cells may be reached by different routes.
 
+Your Program's Input
+====================
+
+You program will take 1 argument as input:
+
+* `argv[1]` is the name of the input file
 
 Output Format
 =============
 
-Your output should match the ones in the expected files. Some key notes:
+Output should be printed to `stdout` with `printf()`. Your output should match the ones in the expected files. Some key notes:
 
 * Walls should have value -1
 * Start should have value 0, as it requires 0 steps to get to that
